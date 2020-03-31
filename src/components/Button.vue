@@ -71,10 +71,10 @@ export default {
   },
   watch: {
     loading(newVal) {
-      // if (newVal) {
-      // const width = this.$refs.button.clientWidth
-      // this.$refs.button.style.setProperty('--initial-width', width + 'px')
-      // }
+      if (newVal) {
+        const width = this.$refs.button.clientWidth;
+        this.$refs.button.style.setProperty("--initial-width", width + "px");
+      }
     }
   },
   mounted() {
