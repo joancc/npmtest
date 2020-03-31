@@ -23,4 +23,4 @@ if (GlobalVue) {
 
 component.install = install;
 
-export { component };
+export default component;

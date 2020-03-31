@@ -1,6 +1,6 @@
 {
   "name": "@joancc/test1",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Describes my component",
   "author": {
     "name": "Joan",
@@ -17,8 +17,7 @@
   "files": [
     "dist"
   ],
-  "main": "dist/myComponent.umd.js",
-  "unpkg": "dist/myComponent.umd.min.js",
+  "main": "dist/myComponent.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
