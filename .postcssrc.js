@@ -14,11 +14,7 @@ const purgecss = require("@fullhuman/postcss-purgecss")({
   ],
   extractors: [
     {
-      extractor: class TailwindExtractor {
-        static extract(content) {
-          return content.match(/[A-Za-z0-9-_:\/]+/g) || [];
-        }
-      },
+      extractor: content => content.match(/[A-Za-z0-9-_:\/]+/g) || [],
       extensions: ["css", "html", "vue"]
     }
   ]
