@@ -4,7 +4,7 @@ import SimpleButton from "./components/SimpleButton.vue";
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component("SimpleIcon", SimpleIcon);
+  // Vue.component("SimpleIcon", SimpleIcon);
   Vue.component("SimpleButton", SimpleButton);
 }
 
@@ -25,5 +25,6 @@ if (GlobalVue) {
 
 export default {
   install,
-  SimpleButton
+  SimpleButton,
+  SimpleIcon
 };

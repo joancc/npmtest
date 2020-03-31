@@ -7,6 +7,11 @@ create tailwind.config.js
 create .postcssrc.js
 install @fullhuman/postcss-purgecss
 
+Install in main.js and load the css:
+import uikit from "@joancc/test1";
+import "@joancc/test1/dist/myComponent.css";
+Vue.use(uikit);
+
 ## Project setup
 
 ```
