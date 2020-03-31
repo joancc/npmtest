@@ -1,10 +1,10 @@
 <script>
-import Icon from "./Icon";
+import SimpleIcon from "./SimpleIcon";
 
 export default {
   name: "SimpleButton",
   components: {
-    Icon
+    SimpleIcon
   },
   props: {
     icon: {
@@ -126,7 +126,7 @@ export default {
     :data-testid="$slots.default[0].text"
     v-on="$listeners"
   >
-    <Icon
+    <SimpleIcon
       v-if="loadingSuccess"
       class="material-icons absolute"
       :class="{ 'text-white': !plain && !dark, 'text-primary-500': plain }"
@@ -134,7 +134,7 @@ export default {
       focusable="false"
       icon="done"
     />
-    <Icon
+    <SimpleIcon
       v-if="icon"
       :class="{ invisible: loading || loadingSuccess, 'mr-4': $mq === 'mo' }"
       class="material-icons mr-2"
