@@ -1,6 +1,6 @@
 {
   "name": "@joancc/test1",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Describes my component",
   "author": {
     "name": "Joan",
@@ -22,7 +22,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:npm": "vue-cli-service build --target lib --name myComponent src/App.vue",
+    "build:npm": "vue-cli-service build --target lib --name myComponent src/entry.js",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint"
