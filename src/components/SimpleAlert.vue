@@ -1,8 +1,0 @@
-<script>
-export default {
-  name: "SimpleAlert"
-};
-</script>
-<template>
-  <h1>SimpleAlert</h1>
-</template>
