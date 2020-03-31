@@ -2,7 +2,7 @@
 import Icon from "./Icon";
 
 export default {
-  name: "GxButton",
+  name: "SimpleButton",
   components: {
     Icon
   },

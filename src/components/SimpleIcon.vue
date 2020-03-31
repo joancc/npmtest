@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "GxIcon",
+  name: "SimpleIcon",
   props: {
     icon: {
       type: String,
