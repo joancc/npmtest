@@ -1,6 +1,6 @@
 {
   "name": "@joancc/test1",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Describes my component",
   "author": {
     "name": "Joan",
@@ -28,9 +28,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "tailwindcss": "^1.2.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
     "@vue/cli-plugin-babel": "^4.2.0",
     "@vue/cli-plugin-e2e-cypress": "^4.2.0",
     "@vue/cli-plugin-eslint": "^4.2.0",
