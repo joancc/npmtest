@@ -1,9 +1,11 @@
-import component from "./components/SimpleAlert.vue";
+import SimpleAlert from "./components/SimpleAlert.vue";
+import SimpleAlert2 from "./components/SimpleAlert2.vue";
 
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component("SimpleAlert", component);
+  Vue.component("SimpleAlert", SimpleAlert);
+  Vue.component("SimpleAlert2", SimpleAlert2);
 }
 
 const plugin = {
@@ -21,6 +23,7 @@ if (GlobalVue) {
   GlobalVue.use(plugin);
 }
 
-component.install = install;
+SimpleAlert.install = install;
+SimpleAlert2.install = install;
 
-export default component;
+export default { SimpleAlert, SimpleAlert2 };

@@ -1,8 +1,8 @@
 <script>
 export default {
-  name: "SimpleAlert"
+  name: "SimpleAlert2"
 };
 </script>
 <template>
-  <h1>SimpleAlert</h1>
+  <h1>SimpleAlert2</h1>
 </template>
