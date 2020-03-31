@@ -1,11 +1,15 @@
 import SimpleAlert from "./components/SimpleAlert.vue";
 import SimpleAlert2 from "./components/SimpleAlert2.vue";
+import Icon from "./components/Icon.vue";
+import Button from "./components/Button.vue";
 
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
   Vue.component("SimpleAlert", SimpleAlert);
   Vue.component("SimpleAlert2", SimpleAlert2);
+  Vue.component("Icon", Icon);
+  Vue.component("Button", Button);
 }
 
 const plugin = {
