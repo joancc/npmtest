@@ -30,5 +30,6 @@ if (GlobalVue) {
 export default {
   install,
   SimpleAlert,
-  SimpleAlert2
+  SimpleAlert2,
+  SimpleButton
 };
