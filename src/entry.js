@@ -1,6 +1,8 @@
 import SimpleAlert from "./components/SimpleAlert.vue";
 import SimpleAlert2 from "./components/SimpleAlert2.vue";
 
+const uikit = {};
+
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
@@ -23,7 +25,6 @@ if (GlobalVue) {
   GlobalVue.use(plugin);
 }
 
-SimpleAlert.install = install;
-SimpleAlert2.install = install;
+uikit.install = install;
 
-export default { SimpleAlert, SimpleAlert2 };
+export default uikit;
