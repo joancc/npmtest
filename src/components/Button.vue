@@ -1,10 +1,10 @@
 <script>
-import GxIcon from "@components/_Core/Icons/GxIcon";
+import Icon from "@components/_Core/Icons/Icon";
 
 export default {
   name: "GxButton",
   components: {
-    GxIcon
+    Icon
   },
   props: {
     icon: {
@@ -126,7 +126,7 @@ export default {
     :data-testid="$slots.default[0].text"
     v-on="$listeners"
   >
-    <GxIcon
+    <Icon
       v-if="loadingSuccess"
       class="material-icons absolute"
       :class="{ 'text-white': !plain && !dark, 'text-primary-500': plain }"
@@ -134,7 +134,7 @@ export default {
       focusable="false"
       icon="done"
     />
-    <GxIcon
+    <Icon
       v-if="icon"
       :class="{ invisible: loading || loadingSuccess, 'mr-4': $mq === 'mo' }"
       class="material-icons mr-2"
