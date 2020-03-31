@@ -1,5 +1,5 @@
 <script>
-import Icon from "@components/_Core/Icons/Icon";
+import Icon from "./Icon";
 
 export default {
   name: "GxButton",
